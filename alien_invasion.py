@@ -143,10 +143,13 @@ class AlienInvasion:
             self._ship_hit()
 
     def _ship_hit(self):
-        self.stats.ships_left -= 1
 
         self.aliens.empty()
         self.bullets.empty()
+
+        self.stats.ships_left -= 1
+
+        
 
         self._create_fleet()
         self.ship.center_ship()
@@ -155,6 +158,6 @@ class AlienInvasion:
 
 
 
-# if AlienInvasion() == '_main_':
+# if AlienInvasion() == '_main_': 
 ai=AlienInvasion()
 ai.run_game()
