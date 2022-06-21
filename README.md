@@ -15,9 +15,15 @@ To try out Alien Invasion...
 
     2. Run the alien_invasion.py file
 
+    3. Press Play Button
+
+    4. Enjoy!
+
 
 Controls:
 
     Fire: Spacebar
 
     Move Left/Right: Left/Right arrow keys
+
+    Quit : Q
