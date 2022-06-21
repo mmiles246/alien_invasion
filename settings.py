@@ -19,8 +19,9 @@ class Settings:
 
         # self.alien_speed = 1.0
         self.fleet_drop_speed = 10
-        
-        
+
+        self.alien_points = 50
+
         self.speed_scale = 1.1
         
         self.initialize_dynamic_settings()
